@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
@@ -20,15 +19,18 @@ return [
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
         'scheme' => 'https',
     ],
-
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
-
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
+    ],
+    'google' => [
+        'client_id' => '822958110508-o4qlcebdcdqfjdmfkk9ko42c24uda9ub.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'http://127.0.0.1:8000/login/google/callback'
     ],
 
 ];

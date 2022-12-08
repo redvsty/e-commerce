@@ -37,6 +37,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'google_id',
         'balance',
     ];
 
@@ -134,5 +135,13 @@ class User extends Authenticatable
     public function setOrders($orders)
     {
         $this->orders = $orders;
+    }
+    public function getGoogleId()
+    {
+        return $this->attributes['google_id'];
+    }
+    public function setGoogleId($google_id)
+    {
+        $this->attributes['google_id'] = $google_id;
     }
 }

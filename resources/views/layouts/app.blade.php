@@ -7,14 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous" />
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
-    <title>@yield('title', 'Online Store')</title>
+    <title>@yield('title', 'RedVsty')</title>
+    <link rel="icon" href="favicon/favicon.ico">
 </head>
 
 <body>
+
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home.index')}}">Online Store</a>
+            <a class="navbar-brand" href="{{ route('home.index')}}">RedVsty</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +45,7 @@
     </nav>
     <header class="masthead bg-primary text-white text-center py-4">
         <div class="container d-flex align-items-center flex-column">
-            <h2>@yield('subtitle', 'A Laravel Online Store')</h2>
+            <h2>@yield('subtitle', 'Online Store')</h2>
         </div>
     </header>
     <!-- header -->
@@ -55,15 +57,13 @@
         <div class="container">
             <small>
                 Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
-                    href="https://twitter.com/danielgarax">
-                    Daniel Correa
-                </a> - <b>Paola Vallejo</b>
+                    href="https://facebook.com/baguvixxx">
+                    RedVsty
             </small>
         </div>
     </div>
     <!-- footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
-    </script>
-</body>
+</body >
 
-</html>
+</html >

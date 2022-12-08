@@ -19,7 +19,7 @@ class CartController extends Controller
             $total = Product::sumPricesByQuantities($productsInCart, $productsInSession);
         }
         $viewData = [];
-        $viewData["title"] = "Cart - Online Store";
+        $viewData["title"] = "Cart - RedVsty";
         $viewData["subtitle"] = "Shopping Cart";
         $viewData["total"] = $total;
         $viewData["products"] = $productsInCart;
@@ -66,7 +66,7 @@ class CartController extends Controller
             Auth::user()->save();
             $request->session()->forget('products');
             $viewData = [];
-            $viewData["title"] = "Purchase - Online Store";
+            $viewData["title"] = "Purchase - RedVsty";
             $viewData["subtitle"] = "Purchase Status";
             $viewData["order"] = $order;
             return view('cart.purchase')->with("viewData", $viewData);

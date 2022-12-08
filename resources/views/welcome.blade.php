@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Home Page - Online Store')
+@section('title', 'Home Page - RedVsty')
 @section('content')
 <div class="text-center">
     Welcome to the application

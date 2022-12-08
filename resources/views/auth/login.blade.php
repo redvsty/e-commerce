@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -70,6 +69,13 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline"
+                                    href="{{ route('google-auth')}}">
+                                    <img src="https://img.icons8.com/color/16/000000/google-logo.png"> Login with
+                                    Google</a>
+                            </div>
                     </form>
                 </div>
             </div>
