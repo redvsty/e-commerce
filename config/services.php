@@ -28,8 +28,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '822958110508-o4qlcebdcdqfjdmfkk9ko42c24uda9ub.apps.googleusercontent.com',
-        'client_secret' => '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',
+        'client_id' => '822958110508-c7bsbskqggtlek1k4044nu7atj9fqf7j.apps.googleusercontent.com',
+        'client_secret' => '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',
         'redirect' => 'http://127.0.0.1:8000/login/google/callback'
     ],
 
