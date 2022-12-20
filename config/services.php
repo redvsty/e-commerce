@@ -30,7 +30,7 @@ return [
     'google' => [
         'client_id' => '822958110508-c7bsbskqggtlek1k4044nu7atj9fqf7j.apps.googleusercontent.com',
         'client_secret' => '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',
-        'redirect' => 'http://127.0.0.1:8000/login/google/callback'
+        'redirect' => 'https://redvsty.my.id/login/google/callback'
     ],
 
 ];
